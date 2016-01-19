@@ -5,6 +5,34 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="1"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action"
+        android:orderInCategory="100"
+        android:title="2.0"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="3"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_ifRoom"
+        android:orderInCategory="100"
+        android:title="4"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_withText"
+        android:orderInCategory="100"
+        android:title="5"
+        app:showAsAction="withText" />
+
 </menu>

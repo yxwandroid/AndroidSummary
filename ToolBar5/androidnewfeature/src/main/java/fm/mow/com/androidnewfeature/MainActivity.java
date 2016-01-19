@@ -3,6 +3,7 @@ package fm.mow.com.androidnewfeature;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -36,6 +37,30 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "你真点我了！", Toast.LENGTH_SHORT).show();
                     }
                 }).show();
+            }
+        });
+
+
+        final TabLayout tabLayout = (TabLayout) findViewById(R.id.tl);
+        for(int i=0;i<4;i++){
+            tabLayout.addTab(tabLayout.newTab().setText("TAB" + i));
+        }
+
+
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                Toast.makeText(MainActivity.this, tab.getText(), Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
             }
         });
     }

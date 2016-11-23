@@ -1,11 +1,11 @@
-package fm.mow.com.androidnewfeature.frament;
+package newfeature.frament;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
-import fm.mow.com.androidnewfeature.TabLayoutFramentActivity;
+import newfeature.activity.TabLayoutFramentActivity;
 
 /**
  * Created by Jay on 2015/8/31 0031.

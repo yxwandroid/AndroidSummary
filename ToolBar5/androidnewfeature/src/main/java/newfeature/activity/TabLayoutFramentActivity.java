@@ -1,4 +1,4 @@
-package fm.mow.com.androidnewfeature;
+package newfeature.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -9,9 +9,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import fm.mow.com.androidnewfeature.frament.MyFragmentPagerAdapter;
+import newfeature.R;
+import newfeature.frament.MyFragmentPagerAdapter;
 
-public class TabLayoutFramentActivity extends AppCompatActivity{
+public class TabLayoutFramentActivity extends AppCompatActivity {
 
     //几个代表页面的常量
     public static final int PAGE_ONE = 0;
@@ -39,7 +40,7 @@ public class TabLayoutFramentActivity extends AppCompatActivity{
         setContentView(R.layout.activity_tab_layout_frament);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        mAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager(),mTitle);
+        mAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager(), mTitle);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,4 +1,4 @@
-package fm.mow.com.androidnewfeature;
+package newfeature.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+
+import newfeature.R;
 
 public class CollapsingToolbarActivity extends AppCompatActivity {
 

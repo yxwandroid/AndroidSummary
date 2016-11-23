@@ -1,4 +1,4 @@
-package fm.mow.com.androidnewfeature.frament;
+package newfeature.frament;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import fm.mow.com.androidnewfeature.R;
+import newfeature.R;
 
 /**
  * Created by Jay on 2015/8/28 0028.

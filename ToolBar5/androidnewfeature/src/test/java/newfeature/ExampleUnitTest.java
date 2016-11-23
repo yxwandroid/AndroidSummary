@@ -1,4 +1,4 @@
-package fm.mow.com.androidnewfeature;
+package newfeature;
 
 import org.junit.Test;
 

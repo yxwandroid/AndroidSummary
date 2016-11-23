@@ -1,4 +1,4 @@
-package fm.mow.com.toolbar;
+package willson.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -6,6 +6,8 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+
+import fm.mow.com.toolbar.R;
 
 public class MenuActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package fm.mow.com.toolbar;
+package willson.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import fm.mow.com.toolbar.R;
 
 public class MainActivity extends AppCompatActivity {
 

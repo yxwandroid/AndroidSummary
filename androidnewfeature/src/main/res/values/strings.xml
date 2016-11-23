@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidNewFeature</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_collapsing_toolbar">CollapsingToolbarActivity</string>
+    <string name="title_activity_tab_layout">TabLayoutActivity</string>
+    <string name="title_activity_tab_layout_frament">TabLayoutFramentActivity</string>
+</resources>

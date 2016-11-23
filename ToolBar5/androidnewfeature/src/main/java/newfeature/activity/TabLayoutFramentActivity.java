@@ -10,7 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import newfeature.R;
-import newfeature.frament.MyFragmentPagerAdapter;
+import newfeature.adapter.MyFragmentPagerAdapter;
 
 public class TabLayoutFramentActivity extends AppCompatActivity {
 

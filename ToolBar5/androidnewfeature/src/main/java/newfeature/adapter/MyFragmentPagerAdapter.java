@@ -1,4 +1,4 @@
-package newfeature.frament;
+package newfeature.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -6,6 +6,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
 import newfeature.activity.TabLayoutFramentActivity;
+import newfeature.frament.MyFragment1;
+import newfeature.frament.MyFragment2;
+import newfeature.frament.MyFragment3;
+import newfeature.frament.MyFragment4;
 
 /**
  * Created by Jay on 2015/8/31 0031.

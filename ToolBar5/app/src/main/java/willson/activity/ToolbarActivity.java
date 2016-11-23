@@ -10,21 +10,14 @@ import android.widget.Toast;
 
 import fm.mow.com.toolbar.R;
 
-public class MainActivity extends AppCompatActivity {
+public class ToolbarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_toolbar);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        Button viewById = (Button) findViewById(R.id.btn);
-//        viewById.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(MainActivity.this, "ss", Toast.LENGTH_SHORT).show();
-//            }
-//        });
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -35,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                Toast.makeText(MainActivity.this, "logo", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ToolbarActivity.this, "logo", Toast.LENGTH_SHORT).show();
                 return false;
             }
         });
@@ -43,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "图标点击", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ToolbarActivity.this, "图标点击", Toast.LENGTH_SHORT).show();
             }
         });
     }

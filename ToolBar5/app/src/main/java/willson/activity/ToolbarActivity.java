@@ -19,8 +19,8 @@ public class ToolbarActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+
         toolbar.setTitle("主标题");
         toolbar.setTitleTextColor(getResources().getColor(R.color.colorPrimaryDark));
         toolbar.setSubtitle("副标题");

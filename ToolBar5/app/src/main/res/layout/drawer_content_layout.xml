@@ -16,5 +16,10 @@
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
         android:text="主页" />
+    <!--内容显示布局-->
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>

@@ -20,25 +20,25 @@
                 </group>
             </menu>
         </item>
-        <item
-            android:id="@+id/item2"
-            android:title="分组二">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:id="@+id/item2_one"
-                        android:icon="@mipmap/icon"
-                        android:title="我的动态"></item>
-                    <item
-                        android:id="@+id/item2_two"
-                        android:icon="@mipmap/icon"
-                        android:title="我的留言"></item>
-                    <item
-                        android:id="@+id/item2_three"
-                        android:icon="@mipmap/icon"
-                        android:title="附近的人"></item>
-                </group>
-            </menu>
-        </item>
+        <!--<item-->
+            <!--android:id="@+id/item2"-->
+            <!--android:title="分组二">-->
+            <!--<menu>-->
+                <!--<group android:checkableBehavior="single">-->
+                    <!--<item-->
+                        <!--android:id="@+id/item2_one"-->
+                        <!--android:icon="@mipmap/icon"-->
+                        <!--android:title="我的动态"></item>-->
+                    <!--<item-->
+                        <!--android:id="@+id/item2_two"-->
+                        <!--android:icon="@mipmap/icon"-->
+                        <!--android:title="我的留言"></item>-->
+                    <!--<item-->
+                        <!--android:id="@+id/item2_three"-->
+                        <!--android:icon="@mipmap/icon"-->
+                        <!--android:title="附近的人"></item>-->
+                <!--</group>-->
+            <!--</menu>-->
+        <!--</item>-->
     </group>
 </menu>

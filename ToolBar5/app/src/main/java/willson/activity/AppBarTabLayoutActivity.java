@@ -12,8 +12,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 import fm.mow.com.toolbar.R;
 import willson.adapter.MyFragmentPagerAdapter;
+import willson.bean.TabTitle;
 
 
 public class AppBarTabLayoutActivity extends AppCompatActivity {
@@ -63,17 +66,24 @@ public class AppBarTabLayoutActivity extends AppCompatActivity {
 //            }
 //        });
 
+
+        ArrayList<TabTitle> tabTitles = new ArrayList<>();
+        tabTitles.add(new TabTitle("ww"));
+        tabTitles.add(new TabTitle("1"));
+        tabTitles.add(new TabTitle("2w"));
+        tabTitles.add(new TabTitle("3w"));
+        tabTitles.add(new TabTitle("34"));
+        tabTitles.add(new TabTitle("4w"));
         //Fragment+ViewPager+FragmentViewPager组合的使用
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
-        MyFragmentPagerAdapter adapter = new MyFragmentPagerAdapter(getSupportFragmentManager(),
-                this);
+        MyFragmentPagerAdapter adapter = new MyFragmentPagerAdapter(getSupportFragmentManager(), this, tabTitles);
         viewPager.setAdapter(adapter);
 
         //TabLayout
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tl);
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 3"));
+//        tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
+//        tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
+//        tabLayout.addTab(tabLayout.newTab().setText("Tab 3"));
         tabLayout.setupWithViewPager(viewPager);
 
     }

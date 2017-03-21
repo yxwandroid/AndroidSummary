@@ -5,6 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import java.util.ArrayList;
+
+import willson.bean.TabTitle;
 import willson.fragment.PageFragment;
 
 /**
@@ -14,13 +17,15 @@ import willson.fragment.PageFragment;
  */
 
 public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
-    public final int COUNT = 5;
-    private String[] titles = new String[]{"Tab1", "Tab2", "Tab3", "Tab4", "Tab5"};
     private Context context;
 
-    public MyFragmentPagerAdapter(FragmentManager fm, Context context) {
+
+    private ArrayList<TabTitle> tabTitles;
+
+    public MyFragmentPagerAdapter(FragmentManager fm, Context context, ArrayList<TabTitle> tabTitles) {
         super(fm);
         this.context = context;
+        this.tabTitles = tabTitles;
     }
 
     @Override
@@ -30,11 +35,11 @@ public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return COUNT;
+        return tabTitles.size();
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return titles[position];
+        return tabTitles.get(position).getTitles();
     }
 }

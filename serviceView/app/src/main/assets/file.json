@@ -1,0 +1,83 @@
+{
+  "replys": [
+    {
+      "content": "{\"contentXml\":\"<?xml version=\\\"1.0\\\"?>\\n<msg>\\n\\t<appmsg appid=\\\"\\\" sdkver=\\\"0\\\">\\n\\t\\t<title>美团外卖，送啥都快！</title>\\n\\t\\t<des>生活不只有诗和远方，还有美团外卖</des>\\n\\t\\t<username />\\n\\t\\t<action>view</action>\\n\\t\\t<type>33</type>\\n\\t\\t<showtype>0</showtype>\\n\\t\\t<content />\\n\\t\\t<url>https://mp.weixin.qq.com/mp/waerrpage?appid=wx2c348cf579062e56&amp;type=upgrade&amp;upgradetype=3#wechat_redirect</url>\\n\\t\\t<lowurl />\\n\\t\\t<dataurl />\\n\\t\\t<lowdataurl />\\n\\t\\t<contentattr>0</contentattr>\\n\\t\\t<streamvideo>\\n\\t\\t\\t<streamvideourl />\\n\\t\\t\\t<streamvideototaltime>0</streamvideototaltime>\\n\\t\\t\\t<streamvideotitle />\\n\\t\\t\\t<streamvideowording />\\n\\t\\t\\t<streamvideoweburl />\\n\\t\\t\\t<streamvideothumburl />\\n\\t\\t\\t<streamvideoaduxinfo />\\n\\t\\t\\t<streamvideopublishid />\\n\\t\\t</streamvideo>\\n\\t\\t<canvasPageItem>\\n\\t\\t\\t<canvasPageXml><![CDATA[]]></canvasPageXml>\\n\\t\\t</canvasPageItem>\\n\\t\\t<appattach>\\n\\t\\t\\t<attachid />\\n\\t\\t\\t<cdnthumburl>305b020100045430520201000204818898e402033d11fd0204a1e2e26502045d41617f042d6175706170706d73675f623139373535306235386165666663305f313536343536353838363134305f363633330204010400030201000400</cdnthumburl>\\n\\t\\t\\t<cdnthumbmd5>a24e123b7abd56221e76ef38e3352680</cdnthumbmd5>\\n\\t\\t\\t<cdnthumblength>23397</cdnthumblength>\\n\\t\\t\\t<cdnthumbheight>336</cdnthumbheight>\\n\\t\\t\\t<cdnthumbwidth>420</cdnthumbwidth>\\n\\t\\t\\t<cdnthumbaeskey>82a8b9eb8f3fa3a1fbd74f226aadee65</cdnthumbaeskey>\\n\\t\\t\\t<aeskey>82a8b9eb8f3fa3a1fbd74f226aadee65</aeskey>\\n\\t\\t\\t<encryver>1</encryver>\\n\\t\\t\\t<fileext />\\n\\t\\t\\t<islargefilemsg>0</islargefilemsg>\\n\\t\\t</appattach>\\n\\t\\t<extinfo />\\n\\t\\t<androidsource>0</androidsource>\\n\\t\\t<sourceusername>gh_72a4eb2d4324@app</sourceusername>\\n\\t\\t<sourcedisplayname>美团外卖</sourcedisplayname>\\n\\t\\t<commenturl />\\n\\t\\t<thumburl />\\n\\t\\t<mediatagname />\\n\\t\\t<messageaction><![CDATA[]]></messageaction>\\n\\t\\t<messageext><![CDATA[]]></messageext>\\n\\t\\t<emoticongift>\\n\\t\\t\\t<packageflag>0</packageflag>\\n\\t\\t\\t<packageid />\\n\\t\\t</emoticongift>\\n\\t\\t<emoticonshared>\\n\\t\\t\\t<packageflag>0</packageflag>\\n\\t\\t\\t<packageid />\\n\\t\\t</emoticonshared>\\n\\t\\t<designershared>\\n\\t\\t\\t<designeruin>0</designeruin>\\n\\t\\t\\t<designername>null</designername>\\n\\t\\t\\t<designerrediretcturl>null</designerrediretcturl>\\n\\t\\t</designershared>\\n\\t\\t<emotionpageshared>\\n\\t\\t\\t<tid>0</tid>\\n\\t\\t\\t<title>null</title>\\n\\t\\t\\t<desc>null</desc>\\n\\t\\t\\t<iconUrl>null</iconUrl>\\n\\t\\t\\t<secondUrl>null</secondUrl>\\n\\t\\t\\t<pageType>0</pageType>\\n\\t\\t</emotionpageshared>\\n\\t\\t<webviewshared>\\n\\t\\t\\t<shareUrlOriginal />\\n\\t\\t\\t<shareUrlOpen />\\n\\t\\t\\t<jsAppId />\\n\\t\\t\\t<publisherId>wxapp_wx2c348cf579062e56pages/index/index.html?from=from_share_index</publisherId>\\n\\t\\t</webviewshared>\\n\\t\\t<template_id />\\n\\t\\t<md5>a24e123b7abd56221e76ef38e3352680</md5>\\n\\t\\t<weappinfo>\\n\\t\\t\\t<pagepath><![CDATA[pages/index/index.html?from=from_share_index]]></pagepath>\\n\\t\\t\\t<username>gh_72a4eb2d4324@app</username>\\n\\t\\t\\t<appid>wx2c348cf579062e56</appid>\\n\\t\\t\\t<version>195</version>\\n\\t\\t\\t<type>2</type>\\n\\t\\t\\t<weappiconurl><![CDATA[http://wx.qlogo.cn/mmhead/Q3auHgzwzM5hquVCXs3GGoLibFceAyGqM8jOnaNoWOHuibQV9aAL40rA/96]]></weappiconurl>\\n\\t\\t\\t<shareId><![CDATA[1_wx2c348cf579062e56_2224879909_1564650701_0]]></shareId>\\n\\t\\t\\t<appservicetype>0</appservicetype>\\n\\t\\t\\t<videopageinfo>\\n\\t\\t\\t\\t<thumbwidth>420</thumbwidth>\\n\\t\\t\\t\\t<thumbheight>336</thumbheight>\\n\\t\\t\\t\\t<fromopensdk>0</fromopensdk>\\n\\t\\t\\t</videopageinfo>\\n\\t\\t</weappinfo>\\n\\t\\t<statextstr />\\n\\t\\t<websearch>\\n\\t\\t\\t<rec_category>0</rec_category>\\n\\t\\t\\t<channelId>0</channelId>\\n\\t\\t</websearch>\\n\\t</appmsg>\\n\\t<fromusername>wxid_ncxkq4aetvbc22</fromusername>\\n\\t<scene>0</scene>\\n\\t<appinfo>\\n\\t\\t<version>1</version>\\n\\t\\t<appname></appname>\\n\\t</appinfo>\\n\\t<commenturl></commenturl>\\n</msg>\\n\",\"previewImage\":\"https://kefures.oss-cn-shenzhen.aliyuncs.com/weremote/chat-logs/28db108910f74fdaac8130bf938dd339/3/765e6d1f547366acaebfae2c45452e02bd7df233\",\"type\":\"miniprogram\",\"miniprogramId\":\"gh_72a4eb2d4324@app\",\"title\":\"美团外卖，送啥都快！\"}",
+      "groupId": "9b7319bc75934cb89fe9a01f8fcc467d",
+      "id": "89370c3a0b9c4895b1d5920f1e11f0f4",
+      "isDeleted": false,
+      "msgType": 49,
+      "sortIndex": 1564652451592,
+      "title": "小程序"
+    },
+    {
+      "content": "你好分组",
+      "groupId": "3bf46d77fd334bc0b92643fe587b1fb3",
+      "id": "75e0ad51639149d689d5ddeaef3d3c04",
+      "isDeleted": false,
+      "msgType": 1,
+      "sortIndex": 1586777316474,
+      "title": "公共分组1第一个元素"
+    },
+    {
+      "content": "部门快捷回复的内容",
+      "groupId": "43470304230d457ea4672fe1394f5bec",
+      "id": "cfde952e02134b959157ef82a116b1f3",
+      "isDeleted": false,
+      "msgType": 1,
+      "sortIndex": 1586777376023,
+      "title": "部门快捷回复内容1"
+    },
+    {
+      "content": "内容私有分组2的内容content",
+      "groupId": "a8ea34229ef24e8dbf8aace8f6d9fb18",
+      "id": "763d677a7519400aa6a3fb1fe28c4f2f",
+      "isDeleted": false,
+      "msgType": 1,
+      "sortIndex": 1586777429859,
+      "title": "私有分组2的内容"
+    },
+    {
+      "content": "玩儿吧",
+      "groupId": "43470304230d457ea4672fe1394f5bec",
+      "id": "8ba72796ec6b4a899bd572b27237b2d0",
+      "isDeleted": false,
+      "msgType": 1,
+      "sortIndex": 1586834282676,
+      "title": "ww"
+    }
+  ],
+  "lastUpdateDate": 1586835255214,
+  "replyGroups": [
+    {
+      "groupId": "3bf46d77fd334bc0b92643fe587b1fb3",
+      "groupName": "公共分组1",
+      "ownerType": 0,
+      "sortIndex": 48
+    },
+    {
+      "groupId": "43470304230d457ea4672fe1394f5bec",
+      "groupName": "部门分组",
+      "ownerType": 2,
+      "sortIndex": 50
+    },
+    {
+      "groupId": "a8ea34229ef24e8dbf8aace8f6d9fb18",
+      "groupName": "私有分组2",
+      "ownerType": 1,
+      "sortIndex": 52
+    },
+    {
+      "groupId": "9b7319bc75934cb89fe9a01f8fcc467d",
+      "groupName": "私有分组1",
+      "ownerType": 1,
+      "parentId": "a8ea34229ef24e8dbf8aace8f6d9fb18",
+      "sortIndex": 51
+    },
+    {
+      "groupId": "1548857d26e840e2b9dedd2fcb1b3b74",
+      "groupName": "私有分组3",
+      "ownerType": 1,
+      "sortIndex": 1586834239208
+    }
+  ]
+}

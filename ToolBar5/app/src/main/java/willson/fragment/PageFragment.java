@@ -1,11 +1,13 @@
 package willson.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 import fm.mow.com.toolbar.R;
 
@@ -15,7 +17,7 @@ import fm.mow.com.toolbar.R;
  * @创建日期 ${date} ${time}
  */
 
-public class PageFragment extends android.support.v4.app.Fragment {
+public class PageFragment extends Fragment {
     public static final String ARGS_PAGE = "args_page";
     private int mPage;
 
